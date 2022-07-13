@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0xu6u-6zK0mTRNb9a4g4vmdqWaVVvm2fBg&usqp=CAU')center top / cover;
+	border-bottom: 3px solid yellow;
+	width: 100%;
+}
+
+body{
+	/*background: url("pexels-stephan-seeber-1261728.jpg")center top / cover;*/
+	/*background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0xu6u-6zK0mTRNb9a4g4vmdqWaVVvm2fBg&usqp=CAU')center top / cover;*/
+	/*background-repeat: no-repeat;*/
+	/*background: black;*/
+	/*background: url("https://t4.ftcdn.net/jpg/01/98/24/71/360_F_198247162_JwrVkhqowZb4NJC24156nV6QYRhsV8Qf.jpg") center top / cover;*/
+	background: url("https://wallpaper.dog/large/10758866.jpg");
+	background-repeat: no-repeat;
+}
+
+.nav-bar a{
+	text-decoration: none;
+	margin: 50px 20px;
+	padding: 20px 20px; /* Top Right Bottom Left     OR     20px 20px then its top-bottom  right-left */
+	color: black;
+}
+
+.nav-bar a:hover{
+	padding-bottom: 15px;
+	border-bottom: 3px solid yellowgreen;
+}
+
+.nav-bar ul{
+	list-style: none;
+	display: flex;
+	font-family: Verdana, sans-serif;
+	margin: 25px 25px;
+	font-weight: bold;
+}
+
+h1.logo{
+	font-family: Verdana, sans-serif;
+	margin: 5px 20px;
+	color: white;
+	font-size: 55px;
+}
+
+.forms{
+	background: lightgray;
+	height: 690px;
+	width: 860px;
+	margin-left: 350px;
+	font-size: 20px;
+	border-radius: 2px;
+}
+
+.forms h2{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	padding-top: 10px;
+}
+
+#alpha{
+	display: flex;
+	flex-direction: column;
+
+	height: 600px;
+	width: 850px;
+	color: black;
+	font-family: Verdana, sans-serif;
+
+}
+
+input{
+	margin-left: 10px;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 2px solid white;
+}
+
+textarea{
+	margin-left: 10px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+label{
+	margin-left: 10px;
+	height: 50px;
+	font-weight: bold;
+
+}
+
+#bttn{
+	height: 50px;
+	font-weight: bold;
+	width: 90px;
+	margin-left: 390px;
+	border: 1px solid;
+}
+
+
+#bttn:hover{
+	background: yellow;
+}
+
+
+#footer{
+	background-color: black;
+	font-family: Verdana, sans-serif;
+	color: ghostwhite;
+	margin-top: 5px;
+	width: 100%;
+}
+
+.section-f{
+	display: flex;
+}
+
+.inform{
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
+.inform pre{
+	border-top: 3px solid yellow;
+	width: 93px;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.navigation{
+	width: 130px;
+	margin-left: 500px;
+	padding-top: 50px;
+}
+
+
+
+.navigation ul{
+	margin-top: 10px;
+	margin-left: 5px;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: none;
+	flex-direction: column;
+}
+
+.navigation li a{
+	font-weight: lighter;
+	transition: all 1s;
+	text-decoration: none;
+	color: ghostwhite;
+}
+
+
+.navigation h3{
+	border-bottom: 3px solid yellow;
+	padding-bottom: 20px;
+	width: 93px;
+}
+
+/*.navigation p{
+	border-top: 3px solid yellow;
+	width: 93px;
+}*/
+.navigation li a:hover{
+	color: yellow;
+	/*text-align: right;*/
+	margin-left: 5px;
+	cursor: pointer;
+
+}
+
+
+.connect-us{
+	margin-left: 340px;
+	width: 250px;
+	padding-top: 50px;
+
+}
+
+/*.connect-us p{
+	border-top: 3px solid yellow;
+	width: 110px;
+}*/
+
+.connect-us h3{
+	border-bottom: 3px solid yellow;
+	padding-bottom: 20px;
+	width: 110px;
+	margin-left: 2px;
+}
+
+.icons{
+	display: flex;
+	text-align: left;
+}
+
+.icons ul{
+	display: flex;
+	list-style: none;
+
+}
+
+.icons li a{
+	color: ghostwhite;
+	margin: 8px;
+	text-decoration: none;
+
+}
+
+.icons li a:hover{
+	color: blue;
+}
+
+/*.fi{
+	border-radius: 50%;
+	background-color: transparent;
+	margin-left: 15px;
+	transition: all 1s;
+	height: 30px;
+	width: 30px;
+}
+
+.fi a{
+	text-decoration: none;
+	color: ghostwhite;
+}
+
+.fi a:hover{
+	background: blue;/*yellow*/
+} */
+
+
+
+.mailing{
+
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.mailing h3{
+	border-bottom: 3px solid yellow;
+	width: 60px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.mailing i{
+	margin-left: 4px;
+}
+
+.mailing a{
+	color: ghostwhite;
+	padding-left: 0px;
+	margin: 0px;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+
+
+.mailing a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+.mobile{
+
+	padding-top: 10px;
+	padding-left: 3px;
+}
+
+.mobile a{
+	color: ghostwhite;
+	padding-left: 0px;
+	margin: 0px;
+	text-align: left;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+.mobile i{
+	margin-left: 4px;
+}
+
+.mobile a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+.mobile h3{
+	border-bottom: 3px solid yellow;
+	width: 70px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
